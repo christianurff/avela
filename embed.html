@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Avela ausprobieren</title>
+  <link rel="stylesheet" href="web/avela.css">
+  <script src="site.js" defer></script>
+  <style>
+    *{box-sizing:border-box}body{margin:0;padding:18px;background:#f7f7f0;color:#203e39;font:15px/1.5 system-ui,sans-serif}.controls{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;align-items:end}label{display:flex;flex-direction:column;gap:5px;font-size:13px}select,button,textarea{font:inherit;color:inherit;background:white;border:1px solid #91a696;border-radius:4px;padding:9px;min-width:0}button{cursor:pointer}input{accent-color:#203e39}#size{width:100%;height:30px;margin:0}output{display:inline}.size-label>span{display:flex;justify-content:space-between}.input-label{margin-top:16px}textarea{display:block;width:100%;height:84px;resize:vertical;margin-top:6px;font-size:14px;line-height:1.5}#output{font-family:'Avela Buch',sans-serif;font-size:36px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere;font-synthesis:none;font-feature-settings:'calt' 1;background:white;border:1px solid #cdd5c9;border-radius:4px;padding:16px;margin-top:16px;min-height:160px;max-height:260px;overflow:auto}#font-status,.note{font-size:12px;color:#53655d;margin:10px 0 0}a{color:inherit;text-underline-offset:3px}:focus-visible{outline:3px solid #b66b34;outline-offset:3px}@media(max-width:400px){body{padding:12px}.controls{gap:10px}.controls select{font-size:13px;padding:8px}}
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <label>Schriftfamilie<select id="family"><option>Avela Buch</option><option>Avela Text</option><option>Avela Rechnen</option><option>Avela Text Spur</option><option>Avela Text Start</option><option>Avela Rechnen Spur</option><option>Avela Rechnen Start</option></select></label>
+    <label>Schnitt<select id="style"><option value="Regular">Regular</option></select></label>
+    <label class="size-label"><span>Größe <output id="size-label" for="size">36 px</output></span><input id="size" type="range" min="18" max="110" value="36"></label>
+    <button id="reset" type="button">Beispieltext</button>
+  </div>
+  <label class="input-label" for="sample">Eigenen Text eingeben</label>
+  <textarea id="sample" spellcheck="false">Mila und Ben gehen in den Garten. Unter dem Baum liegt ein roter Ball.
+0123456789 · 12 : 3 = 4</textarea>
+  <div id="output" aria-label="Schriftprobe"></div>
+  <p id="font-status" role="status">Die Schriftprobe wird geladen.</p>
+  <p class="note">Avela von Christian Urff · <a href="https://github.com/christianurff/avela/blob/main/LICENSE.md" target="_blank" rel="noopener">Lizenzen</a> · <a href="https://christianurff.github.io/avela/" target="_blank" rel="noopener">Große Schriftprobe öffnen ↗</a></p>
+</body>
+</html>
