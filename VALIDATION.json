@@ -1,0 +1,222 @@
+[
+  {
+    "file": "AvelaBuch-Bold.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "203b6e7cc9b1d9e640b09f851dd5130f8fee3e4847d29ba131bd073ae83007bb",
+    "publishedSHA256": "203b6e7cc9b1d9e640b09f851dd5130f8fee3e4847d29ba131bd073ae83007bb",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-BoldItalic.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "671727ac3dd0780a1b9801f445849ddfabddae164e923bb48a86bff862bc2c22",
+    "publishedSHA256": "671727ac3dd0780a1b9801f445849ddfabddae164e923bb48a86bff862bc2c22",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-Italic.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "dd865448415738276c4f2a62e8df0cd7c7ab937d0d24e085e633a357ebc78f00",
+    "publishedSHA256": "dd865448415738276c4f2a62e8df0cd7c7ab937d0d24e085e633a357ebc78f00",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-Medium.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "d01f8206da46fd367ab628a2337cc9a34bc8ddc8eb939a13e224b96550385483",
+    "publishedSHA256": "d01f8206da46fd367ab628a2337cc9a34bc8ddc8eb939a13e224b96550385483",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-MediumItalic.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "dd3f1b9023f2d1ee57862562a572a8d4203b33cea71b7f16ac731f578ad94b3a",
+    "publishedSHA256": "dd3f1b9023f2d1ee57862562a572a8d4203b33cea71b7f16ac731f578ad94b3a",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-Regular.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "8bbd61d5106111d89a277c2ae489c5ac1f9e0a8383cdf2fd0621e5b1011df3bb",
+    "publishedSHA256": "8bbd61d5106111d89a277c2ae489c5ac1f9e0a8383cdf2fd0621e5b1011df3bb",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-SemiBold.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "29b08756d500c88b5f8c6893087b5fc3da7b440f883dbcf12952583d62bbfe46",
+    "publishedSHA256": "29b08756d500c88b5f8c6893087b5fc3da7b440f883dbcf12952583d62bbfe46",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-SemiBoldItalic.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "add7327443863634e0862ee7263376d89329d1dad4df2234e0bcc92b23612245",
+    "publishedSHA256": "add7327443863634e0862ee7263376d89329d1dad4df2234e0bcc92b23612245",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-Light.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "4845a27a6ae1186c22d0f1cae439f4a5c1ae17c2cf61a6c8e22990d213a50c05",
+    "publishedSHA256": "4845a27a6ae1186c22d0f1cae439f4a5c1ae17c2cf61a6c8e22990d213a50c05",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaText-Bold.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "9b8bc31a9e5aa08963e1cba26915a9225e22e2afe2c90e1f7a996b9de89c0def",
+    "publishedSHA256": "8359a4507357dd01295bf3aa9b083a08ddef84889703483da902a92a338cbb16",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaText-Medium.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "47ca19c7edbabcb6a61472bd99a4d5c1e4f206ea34ce41f7a1173b51b3159657",
+    "publishedSHA256": "b7bfaff0a80d2210b4c73849c39adf1a3d7b60234de6b558a8053df4387a6798",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaText-Regular.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "ba8045c537fea878d96f8c69aa7b8119ad1396dea662f7815ec9f8cfe02f40af",
+    "publishedSHA256": "8a4354c0953ea522821e6db78c87862b46e6158593eaa09922d8bd851a6fe9d8",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaText-Light.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "f08ca0e56040b8a0bc2d178cf84b9005d9e91967971be5cadd1ad10d6f13141d",
+    "publishedSHA256": "512001460a4fe3364401b6ba9b08aa695bfe6b8ccd4672f41fb6fc9851221172",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaRechnen-Bold.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "084bfc451a18da266e61de598a4ae733e8cd4269e87bece1ec0bd167d9dd300d",
+    "publishedSHA256": "1fcb4ac976474140768cfeb9e5f3967a5d9d5092c0cf9ddd19b071fc61bffcd1",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaRechnen-Regular.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "18a857324e5cc0f392fa86b287ffe8bf3c76ebba955d39e5ae55357b79d0003a",
+    "publishedSHA256": "5483771b7faa15f056e02d7d9eda5d0398043fed1d6da0778a67b9ef479c0b3f",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaRechnen-Light.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "bee6082a6768e1fa09337263fa6d4fddfa28b29f30327ba2873f9f7eace51df8",
+    "publishedSHA256": "b3e9621e63ea942621be29d8d9e693d9054b6b60a961fa9f96153d6d3fd1ac1c",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaRechnenSpur-Regular.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "9395003a8206aeb5ab6535ba492fb7e432382984581fa8b1b87d7121da88bd5d",
+    "publishedSHA256": "09a64a3567151f8e9443b0c62265494aa576b32109f034bf71505678512ac857",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaRechnenStart-Regular.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "550da585e0e3c0c17b56028deeb551c7907138a6adc03eb66ff96ef7e2bcb9f1",
+    "publishedSHA256": "a3428acf126a9de23b791a3a6fa5735ee81c66fdbd8b876841ac7118cad5e4c4",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaTextSpur-Regular.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "f27f19900238a4abf89552fbdae43776dea1c70d55da3803b3b3ed3831cb81f8",
+    "publishedSHA256": "f4c7cf4a2db66f1d486b51e81061fd78996d7bc0bc732ab5c59d694c4a497be0",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaTextStart-Regular.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "6af06b98d5f825e89b65be23e7f2ba899831b28ff956489edf5192618d933689",
+    "publishedSHA256": "0482673cc3d628eccd74c9174346e82e9ccc0c5d95efbbccb026834c27834b90",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "CC-BY-3.0"
+  }
+]

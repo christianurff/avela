@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Avela von Christian Urff: freie Schriften für Lesetexte, Lernmaterial, Mathematik und Schreibübungen. Als TTF und Webfont.">
+  <title>Avela · Schriften zum Lernen</title>
+  <link rel="stylesheet" href="web/avela.css">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#probe">Zur Schriftprobe</a>
+  <header><a class="brand" href="#">Avela</a><nav aria-label="Hauptnavigation"><a href="#familien">Familien</a><a href="#probe">Ausprobieren</a><a href="#web">Webfonts</a><a href="https://github.com/christianurff/avela">GitHub ↗</a></nav></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Schriften von Christian Urff</p>
+      <h1>Lesen. Rechnen.<br>Selber schreiben.</h1>
+      <p class="intro">Avela begleitet das Lernen. Mit ruhigen Formen für Lesetexte, klaren Zahlen und kleinen Hilfen für die ersten eigenen Buchstaben.</p>
+      <div class="actions"><a class="button primary" href="https://github.com/christianurff/avela/releases/latest">Alle Schriften laden ↓</a><a class="button" href="#probe">Schrift ausprobieren</a></div>
+      <p class="meta">20 Schnitte · TTF und WOFF2 · frei nutzbar mit Lizenz</p>
+    </section>
+    <section id="familien" aria-labelledby="familien-title">
+      <div class="section-head"><p class="eyebrow">Eine Familie. Viele Aufgaben.</p><h2 id="familien-title">Für den nächsten Schritt.</h2></div>
+      <div class="cards">
+        <article><p class="label">Avela Buch <span>9 Schnitte</span></p><p class="example book">Eine kleine<br>Welt voller<br>Geschichten.</p><p>Ruhige Formen für Lesetexte. Von Light bis Bold, mit vier kursiven Schnitten.</p><p class="license">Auf Basis von Andika · OFL 1.1</p></article>
+        <article><p class="label">Avela Text <span>4 Schnitte</span></p><p class="example text">Wir entdecken<br>jeden Tag<br>etwas Neues.</p><p>Handschriftlichere Formen für Arbeitsblätter und digitale Lernmaterialien.</p><p class="license">Light bis Bold · CC BY 3.0</p></article>
+        <article><p class="label">Avela Rechnen <span>3 Schnitte</span></p><p class="example math">12,50 + 2,25<br>7*8=56<br>12:3=4</p><p>Feste Stellenbreiten. Einfach mit Malpunkt, Minus und Dezimalkomma rechnen.</p><p class="license">Light, Regular, Bold · CC BY 3.0</p></article>
+      </div>
+      <div class="practice-panel"><div><p class="eyebrow">Vier Übungsschriften</p><h3>Erst nachspuren.<br>Dann selber schreiben.</h3><p>Spur zeigt gestrichelte Wege. Start gibt den Anfang und die erste Richtung vor. Für Buchstaben und für Ziffern.</p><p class="meta">Groß verwenden: ab etwa 48 pt. Start-Hilfen brauchen eine bekannte Form oder eine Vorlage.</p></div><div class="practice-examples"><p class="label">Avela Text Spur</p><p class="trace">Aa Mm</p><p class="label">Avela Rechnen Start</p><p class="start">12345</p></div></div>
+    </section>
+    <section id="probe" aria-labelledby="probe-title">
+      <div class="section-head"><p class="eyebrow">Die eigene Schriftprobe</p><h2 id="probe-title">Wie sieht dein Text aus?</h2></div>
+      <div class="controls">
+        <label>Schriftfamilie<select id="family"><option>Avela Buch</option><option>Avela Text</option><option>Avela Rechnen</option><option>Avela Text Spur</option><option>Avela Text Start</option><option>Avela Rechnen Spur</option><option>Avela Rechnen Start</option></select></label>
+        <label>Schnitt<select id="style"><option value="Regular">Regular</option></select></label>
+        <label class="size-label">Größe <output id="size-label" for="size">36 px</output><input id="size" type="range" min="18" max="110" value="36"></label>
+        <button id="reset" type="button">Beispieltext</button>
+      </div>
+      <label class="input-label" for="sample">Eigenen Text eingeben</label>
+      <textarea id="sample" rows="4" spellcheck="false">Mila und Ben gehen in den Garten. Unter dem Baum liegt ein roter Ball. Wer hat ihn wohl dort vergessen?
+0123456789 · 7 · 8 = 56 · 12 : 3 = 4</textarea>
+      <div class="sample-output" id="output" aria-label="Schriftprobe"></div>
+      <p class="meta" id="font-status" role="status">Die Schriftprobe wird geladen.</p>
+      <p class="note">In Avela Rechnen wird <code>*</code> zum Malpunkt und <code>-</code> zum Minus. Ein Komma direkt zwischen Ziffern braucht keine eigene Stelle. Der Doppelpunkt bleibt das deutsche Geteilzeichen.</p>
+    </section>
+    <section id="web" class="web-section" aria-labelledby="web-title">
+      <div><p class="eyebrow">Auch für deine Webseite</p><h2 id="web-title">Eine Zeile.<br>Alle Schriften.</h2><p>Die CSS-Datei bindet Avela als Webfont ein. Der Browser lädt nur die verwendeten Schnitte. Du kannst die Dateien auch auf deinem eigenen Server ablegen.</p><a href="https://github.com/christianurff/avela#direkt-als-webschrift-einbinden">Anleitung und Beispiele ↗</a></div>
+      <div class="code-panel"><p class="label">In den HTML-Kopf einfügen</p><pre><code>&lt;link rel="stylesheet"
+  href="https://christianurff.github.io/avela/web/avela.css"&gt;</code></pre><p class="label">In deiner CSS-Datei</p><pre><code>body {
+  font-family: "Avela Buch", sans-serif;
+}
+.rechnen {
+  font-family: "Avela Rechnen", sans-serif;
+  font-feature-settings: "calt" 1;
+}</code></pre></div>
+    </section>
+    <section class="license-section" id="lizenz"><h2>Frei nutzbar. Klar gekennzeichnet.</h2><p>Avela Text, Rechnen und die vier Übungsschriften stehen wie Grundschrift unter <a href="licenses/CC-BY-3.0.md">CC BY 3.0</a>. Bitte nenne „Avela von Christian Urff“ und verlinke Schrift und Lizenz.</p><p>Avela Buch basiert auf Andika von SIL Global. Deshalb bleibt diese Familie unter der <a href="licenses/OFL-1.1-Avela-Buch.txt">SIL Open Font License 1.1</a>. Die Lizenz gilt nicht automatisch für die damit erstellten Unterrichtsmaterialien.</p><p class="meta">Die Schriften sind technisch geprüft. Eine allgemeine Überlegenheit beim Lesen wurde nicht mit Kindern nachgewiesen. <a href="https://github.com/christianurff/avela/blob/main/LICENSE.md">Alle Lizenzangaben</a></p></section>
+  </main>
+  <footer><span>Avela · Christian Urff · 2026</span><div><a href="https://github.com/christianurff/avela/releases/latest">Download</a><a href="https://github.com/christianurff/avela/issues">Rückmeldung</a><a href="https://github.com/christianurff/avela">Quellen & Dateien</a></div></footer>
+</body>
+</html>
