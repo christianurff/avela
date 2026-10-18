@@ -17,9 +17,11 @@ Lernangebote. Mit klaren Buchstaben, Rechenzeichen und Varianten zum Schreibenü
 | Avela Rechnen Spur / Start | Ziffern 0–9 üben | Jeweils Regular |
 
 Insgesamt **20 Schnitte**, jeweils als TTF und WOFF2. Die Schriftdateien verwenden
-die freigegebenen Formen der Versionen 1.016 bzw. 0.101. Für diese öffentliche
-Ausgabe wurden bei Text, Rechnen und den Übungsschriften nur die Lizenzangaben
-ergänzt. Formen, Abstände und Rechenfunktionen bleiben unverändert.
+die geprüften lokalen Entwürfe. In **v1.0.1** sind Medium, SemiBold und Bold von
+**Avela Buch auf Schriftversion 1.017** aktualisiert: weichere Bögen bei n/m/h/r
+und etwas größere Innenräume bei a/b/d/e/g/o/p/q. Textbreiten, Abstände und
+Rechenfunktionen bleiben erhalten. Die übrigen Schnitte bleiben auf 1.016 bzw.
+0.101. [Alle Änderungen](CHANGELOG.md).
 
 ## Auf dem Computer installieren
 

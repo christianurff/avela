@@ -30,7 +30,7 @@ async function render() {
   try {
     const loaded = await document.fonts.load(`${face.cssStyle} ${face.weight} 32px "${face.family}"`);
     if (id !== renderNumber) return;
-    status.textContent = loaded.length ? `${face.family} · ${face.style} · ${face.license} · Webfont geladen.` : 'Die Schrift konnte nicht geladen werden.';
+    status.textContent = loaded.length ? `${face.family} · ${face.style} · ${face.designVersion} · ${face.license} · Webfont geladen.` : 'Die Schrift konnte nicht geladen werden.';
   } catch (_) {
     if (id === renderNumber) status.textContent = 'Die Schrift konnte nicht geladen werden. Bitte die Verbindung prüfen.';
   }
@@ -58,7 +58,7 @@ style.addEventListener('change', render);
 size.addEventListener('input', render);
 sample.addEventListener('input', render);
 el('reset').addEventListener('click', () => { exampleText(); render(); });
-fetch('MANIFEST.json').then(response => {
+fetch('MANIFEST.json?v=1.0.1').then(response => {
   if (!response.ok) throw new Error('Manifest unavailable');
   return response.json();
 }).then(data => { manifest = data; chooseFamily(); }).catch(error => {

@@ -1,16 +1,5 @@
 [
   {
-    "file": "AvelaBuch-Bold.ttf",
-    "passed": true,
-    "approvedSourceSHA256": "203b6e7cc9b1d9e640b09f851dd5130f8fee3e4847d29ba131bd073ae83007bb",
-    "publishedSHA256": "203b6e7cc9b1d9e640b09f851dd5130f8fee3e4847d29ba131bd073ae83007bb",
-    "unchangedOutlinesAndLayout": true,
-    "webfontRoundTrip": true,
-    "embeddingAllowed": true,
-    "shapingCases": 40,
-    "license": "OFL-1.1"
-  },
-  {
     "file": "AvelaBuch-BoldItalic.ttf",
     "passed": true,
     "approvedSourceSHA256": "671727ac3dd0780a1b9801f445849ddfabddae164e923bb48a86bff862bc2c22",
@@ -33,17 +22,6 @@
     "license": "OFL-1.1"
   },
   {
-    "file": "AvelaBuch-Medium.ttf",
-    "passed": true,
-    "approvedSourceSHA256": "d01f8206da46fd367ab628a2337cc9a34bc8ddc8eb939a13e224b96550385483",
-    "publishedSHA256": "d01f8206da46fd367ab628a2337cc9a34bc8ddc8eb939a13e224b96550385483",
-    "unchangedOutlinesAndLayout": true,
-    "webfontRoundTrip": true,
-    "embeddingAllowed": true,
-    "shapingCases": 40,
-    "license": "OFL-1.1"
-  },
-  {
     "file": "AvelaBuch-MediumItalic.ttf",
     "passed": true,
     "approvedSourceSHA256": "dd3f1b9023f2d1ee57862562a572a8d4203b33cea71b7f16ac731f578ad94b3a",
@@ -59,17 +37,6 @@
     "passed": true,
     "approvedSourceSHA256": "8bbd61d5106111d89a277c2ae489c5ac1f9e0a8383cdf2fd0621e5b1011df3bb",
     "publishedSHA256": "8bbd61d5106111d89a277c2ae489c5ac1f9e0a8383cdf2fd0621e5b1011df3bb",
-    "unchangedOutlinesAndLayout": true,
-    "webfontRoundTrip": true,
-    "embeddingAllowed": true,
-    "shapingCases": 40,
-    "license": "OFL-1.1"
-  },
-  {
-    "file": "AvelaBuch-SemiBold.ttf",
-    "passed": true,
-    "approvedSourceSHA256": "29b08756d500c88b5f8c6893087b5fc3da7b440f883dbcf12952583d62bbfe46",
-    "publishedSHA256": "29b08756d500c88b5f8c6893087b5fc3da7b440f883dbcf12952583d62bbfe46",
     "unchangedOutlinesAndLayout": true,
     "webfontRoundTrip": true,
     "embeddingAllowed": true,
@@ -174,6 +141,39 @@
     "embeddingAllowed": true,
     "shapingCases": 40,
     "license": "CC-BY-3.0"
+  },
+  {
+    "file": "AvelaBuch-Bold.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "5ce2b585ca15ba46e8db60617c799dcf246cc42867e4dfb8264be743a11c6186",
+    "publishedSHA256": "5ce2b585ca15ba46e8db60617c799dcf246cc42867e4dfb8264be743a11c6186",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-Medium.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "1ec6005e998c745416a74b760c735bf086bbafcf3b4bde56a51c96adfc8d6981",
+    "publishedSHA256": "1ec6005e998c745416a74b760c735bf086bbafcf3b4bde56a51c96adfc8d6981",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "AvelaBuch-SemiBold.ttf",
+    "passed": true,
+    "approvedSourceSHA256": "b0685f5aadd22d95d1400e6bdd947157cc29718961219738dc8a375fd7b4dc26",
+    "publishedSHA256": "b0685f5aadd22d95d1400e6bdd947157cc29718961219738dc8a375fd7b4dc26",
+    "unchangedOutlinesAndLayout": true,
+    "webfontRoundTrip": true,
+    "embeddingAllowed": true,
+    "shapingCases": 40,
+    "license": "OFL-1.1"
   },
   {
     "file": "AvelaRechnenSpur-Regular.ttf",

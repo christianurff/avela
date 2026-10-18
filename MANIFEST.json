@@ -1,19 +1,6 @@
 [
   {
     "family": "Avela Buch",
-    "style": "Bold",
-    "weight": 700,
-    "cssStyle": "normal",
-    "designVersion": "1.016",
-    "license": "OFL-1.1",
-    "ttf": "fonts/ttf/AvelaBuch-Bold.ttf",
-    "woff2": "web/AvelaBuch-Bold.woff2",
-    "ttfSHA256": "203b6e7cc9b1d9e640b09f851dd5130f8fee3e4847d29ba131bd073ae83007bb",
-    "woff2SHA256": "1fadf3298b7fbd42889946c2cb262f54647f58d0cc7ea9dfa8cd8dd0cf2769ec",
-    "characters": 2667
-  },
-  {
-    "family": "Avela Buch",
     "style": "BoldItalic",
     "weight": 700,
     "cssStyle": "italic",
@@ -40,19 +27,6 @@
   },
   {
     "family": "Avela Buch",
-    "style": "Medium",
-    "weight": 500,
-    "cssStyle": "normal",
-    "designVersion": "1.016",
-    "license": "OFL-1.1",
-    "ttf": "fonts/ttf/AvelaBuch-Medium.ttf",
-    "woff2": "web/AvelaBuch-Medium.woff2",
-    "ttfSHA256": "d01f8206da46fd367ab628a2337cc9a34bc8ddc8eb939a13e224b96550385483",
-    "woff2SHA256": "20852157f6aef0480e7bbda73560fcdf61c24b8edce5469e606c59bb540dc1eb",
-    "characters": 2667
-  },
-  {
-    "family": "Avela Buch",
     "style": "MediumItalic",
     "weight": 500,
     "cssStyle": "italic",
@@ -75,19 +49,6 @@
     "woff2": "web/AvelaBuch-Regular.woff2",
     "ttfSHA256": "8bbd61d5106111d89a277c2ae489c5ac1f9e0a8383cdf2fd0621e5b1011df3bb",
     "woff2SHA256": "089583f60e9d26acc1964b9c43cbced79045ffac4e5e990277985f788e4ed8fc",
-    "characters": 2667
-  },
-  {
-    "family": "Avela Buch",
-    "style": "SemiBold",
-    "weight": 600,
-    "cssStyle": "normal",
-    "designVersion": "1.016",
-    "license": "OFL-1.1",
-    "ttf": "fonts/ttf/AvelaBuch-SemiBold.ttf",
-    "woff2": "web/AvelaBuch-SemiBold.woff2",
-    "ttfSHA256": "29b08756d500c88b5f8c6893087b5fc3da7b440f883dbcf12952583d62bbfe46",
-    "woff2SHA256": "33766d41c90efcf71fef813faf804ec3890ac3c077c654854c7e34a42b56f9dd",
     "characters": 2667
   },
   {
@@ -206,6 +167,45 @@
     "ttfSHA256": "b3e9621e63ea942621be29d8d9e693d9054b6b60a961fa9f96153d6d3fd1ac1c",
     "woff2SHA256": "b4a5f795a051b97934f0f0099002f281531ae2f3461c224d39a38eb3bf42ec24",
     "characters": 479
+  },
+  {
+    "family": "Avela Buch",
+    "style": "Bold",
+    "weight": 700,
+    "cssStyle": "normal",
+    "designVersion": "1.017",
+    "license": "OFL-1.1",
+    "ttf": "fonts/ttf/AvelaBuch-Bold.ttf",
+    "woff2": "web/AvelaBuch-Bold.woff2",
+    "ttfSHA256": "5ce2b585ca15ba46e8db60617c799dcf246cc42867e4dfb8264be743a11c6186",
+    "woff2SHA256": "ac27ac91d5d77ec8b0267138712a410cf43a5af448ffe1403403035ee5e8823b",
+    "characters": 2667
+  },
+  {
+    "family": "Avela Buch",
+    "style": "Medium",
+    "weight": 500,
+    "cssStyle": "normal",
+    "designVersion": "1.017",
+    "license": "OFL-1.1",
+    "ttf": "fonts/ttf/AvelaBuch-Medium.ttf",
+    "woff2": "web/AvelaBuch-Medium.woff2",
+    "ttfSHA256": "1ec6005e998c745416a74b760c735bf086bbafcf3b4bde56a51c96adfc8d6981",
+    "woff2SHA256": "d3bfae1cfb362532a7d2332432d784b5b2a9bc06175ac2180025766e737b7b35",
+    "characters": 2667
+  },
+  {
+    "family": "Avela Buch",
+    "style": "SemiBold",
+    "weight": 600,
+    "cssStyle": "normal",
+    "designVersion": "1.017",
+    "license": "OFL-1.1",
+    "ttf": "fonts/ttf/AvelaBuch-SemiBold.ttf",
+    "woff2": "web/AvelaBuch-SemiBold.woff2",
+    "ttfSHA256": "b0685f5aadd22d95d1400e6bdd947157cc29718961219738dc8a375fd7b4dc26",
+    "woff2SHA256": "178c6423bba6d0227286115783c04a8fddda4b83adf17d91aafbda2bfe3d4b9f",
+    "characters": 2667
   },
   {
     "family": "Avela Rechnen Spur",

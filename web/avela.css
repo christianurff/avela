@@ -4,14 +4,6 @@
    License notices: ../LICENSE.md and ../licenses/ */
 @font-face {
   font-family: "Avela Buch";
-  src: url("AvelaBuch-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Avela Buch";
   src: url("AvelaBuch-BoldItalic.woff2") format("woff2");
   font-weight: 700;
   font-style: italic;
@@ -28,14 +20,6 @@
 
 @font-face {
   font-family: "Avela Buch";
-  src: url("AvelaBuch-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Avela Buch";
   src: url("AvelaBuch-MediumItalic.woff2") format("woff2");
   font-weight: 500;
   font-style: italic;
@@ -46,14 +30,6 @@
   font-family: "Avela Buch";
   src: url("AvelaBuch-Regular.woff2") format("woff2");
   font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Avela Buch";
-  src: url("AvelaBuch-SemiBold.woff2") format("woff2");
-  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -126,6 +102,30 @@
   font-family: "Avela Rechnen";
   src: url("AvelaRechnen-Light.woff2") format("woff2");
   font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avela Buch";
+  src: url("AvelaBuch-Bold.woff2?v=1.017") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avela Buch";
+  src: url("AvelaBuch-Medium.woff2?v=1.017") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avela Buch";
+  src: url("AvelaBuch-SemiBold.woff2?v=1.017") format("woff2");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
